@@ -26,5 +26,8 @@ void PritnResalt(int resalt)
     System.Console.WriteLine($"Результат возведения в натуральную степень - {resalt}");
 }
 
+
+System.Console.WriteLine($"Необходимо ввести два числа. Первое - это число, которое хотите возвести в степень, второе - степень числа.");
+
 PritnResalt(PowNum(GetNum(), GetNum()));
 
